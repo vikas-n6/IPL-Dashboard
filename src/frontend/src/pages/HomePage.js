@@ -25,6 +25,8 @@ export const HomePage = () => {
     <div className="HomePage">
         <div className="header-section">
             <h1 className="app-name">IPL Dashboard Demo</h1>
+
+            
         </div>
         <div classname="team-grid">
           {teams.map(team => <TeamTile key={team.id} teamName={team.teamName} />)}
